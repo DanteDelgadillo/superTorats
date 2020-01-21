@@ -11,7 +11,7 @@
     position: absolute;
     min-height: 100%; 
     background-image: url("../src/photos/wood.jpg");
-    background-size: cover;
+    background-size: 100% auto;
     background-position: bottom;
 }
 
