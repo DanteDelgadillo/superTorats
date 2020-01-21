@@ -80,7 +80,7 @@ const Menu = () => {
                         </div>
                         <div>
                             <ul className="menuItems">
-                                <li className="itemName">Huevo Con Jamon(Ham & eggs0)</li>
+                                <li className="itemName">Huevo Con Jamon(Ham & eggs)</li>
                                 <li className="menuDescripton">Bolillo Bread filled with eggs & ham fresh lettuce, tomato, onion, bell peppers, avocado, & mayo.
                                 </li>
                             </ul>
