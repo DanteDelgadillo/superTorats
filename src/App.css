@@ -152,6 +152,7 @@
         @media (max-width: 1024px) {
             .homeFlex {
            width: 90%;
+           height: 300px;
             }
             }
         
