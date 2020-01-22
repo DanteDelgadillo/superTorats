@@ -4,7 +4,9 @@
     font-size: 25px
 }
 
-
+.navMargin{
+    margin-left: 70%;
+}
 /* ************************************Menu********** */
 
 .menuBackground{
