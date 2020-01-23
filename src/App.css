@@ -5,7 +5,7 @@
 }
 
 .navMargin{
-    margin-left: 70%;
+    margin-left: 80%;
 }
 /* ************************************Menu********** */
 
@@ -123,6 +123,51 @@
     height:600px;
       /* display: none; */
 }
+
+.location-container{
+    display: flex;
+  flex-wrap: nowrap;
+  height: 400px;
+  justify-content: center;
+ 
+}
+
+.location-container>div {
+    border-top: 5px double #0a0a0a;
+    border-bottom: 5px double #0a0a0a;
+    border-radius: 20px; 
+    width: 80%;
+    margin: 20px;
+    text-align: center;
+
+    font-size: 30px;
+  }
+
+  .locat{
+    padding-inline-start: 0px !important ;
+  }
+
+  .locatTitle{
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  .loactText{
+font-size: 30px;
+  }
+ 
+  
+  @media (max-width: 1024px) {
+    .navMargin {
+        margin-left: 5%;
+    }
+    }
+
+    @media (max-width: 1024px) {
+        .loactText {
+        font-size: 20px;
+        }
+        }
 
 @media (max-width: 1024px) {
     .sideimage {
