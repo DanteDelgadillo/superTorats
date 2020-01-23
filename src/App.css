@@ -68,11 +68,19 @@
   }
 /* ************************************Home************** */
 
+
 .home-flex-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background-color:  rgb(173, 142, 56);
+}
+.logoImage{
+
+    background-repeat: no-repeat;
+   
+    background-position: bottom; 
+    background-image: url("../src/photos/Super.png");
 }
 
 .homeFlex{
@@ -127,7 +135,7 @@
 .location-container{
     display: flex;
   flex-wrap: nowrap;
-  height: 400px;
+  height: 480px;
   justify-content: center;
  
 }
@@ -203,3 +211,44 @@ font-size: 30px;
             }
             }
         
+
+            /* ********************** Footer ********** */
+
+            .fullbody{
+            min-height: 100%
+            }
+
+            .main{
+                overflow: auto;
+                padding-bottom: 150px
+            }
+
+            .footer-Flex{
+                height: 150px;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                background-color:#1F1F1F;
+                margin-top: -100px;
+                clear: both;
+            }
+
+            .footer-Flex> div {
+              color: #fff;
+                margin: 10px;
+                text-align: center;
+                line-height: 75px;
+                font-size: 30px;
+               
+              }
+
+              .yelpimage{
+                  height: 100px;
+                  cursor: pointer;
+              }
+
+              .ss{
+                  padding: 20px
+              }
+
+              

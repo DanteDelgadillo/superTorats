@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../photos/Super.png";
 
 const Home = () => {
     return (
@@ -8,7 +9,7 @@ const Home = () => {
 
                 </div>
                 <div className="homeFlex">
-                    2222
+
                 </div>
                 <div className="sideimage2">
 
@@ -16,7 +17,7 @@ const Home = () => {
             </div>
             {/* ***********Our Location******* */}
             <div className="location-container">
-                <div>
+                <div className="logoImage">
                     <ul className="locat">
                         <li className="locatTitle" >Our Location</li>
                     </ul>
@@ -38,6 +39,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
         </React.Fragment>
     )
 }
