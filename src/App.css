@@ -75,16 +75,10 @@
     justify-content: center;
     background-color:  rgb(173, 142, 56);
 }
-.logoImage{
 
-    background-repeat: no-repeat;
-   
-    background-position: bottom; 
-    background-image: url("../src/photos/Super.png");
-}
 
 .homeFlex{
-   
+      
     color:black;
     font-size: 30px;
     text-align: center;
@@ -96,6 +90,7 @@
     margin: 10px;
     width:32%;
     height:600px;
+    
 
    
 
@@ -137,6 +132,7 @@
   flex-wrap: nowrap;
   height: 480px;
   justify-content: center;
+  
  
 }
 
@@ -162,6 +158,10 @@
 
   .loactText{
 font-size: 30px;
+  }
+
+  .logo{
+height: 50px;
   }
  
   

@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../photos/Super.png";
+
 
 const Home = () => {
     return (
@@ -17,7 +17,7 @@ const Home = () => {
             </div>
             {/* ***********Our Location******* */}
             <div className="location-container">
-                <div className="logoImage">
+                <div>
                     <ul className="locat">
                         <li className="locatTitle" >Our Location</li>
                     </ul>

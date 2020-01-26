@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 // import { Link } from "react-router-dom";
+import SuperLogo from "../photos/Super.png";
 
 export default class Navbar extends Component {
     render() {
         return (
             <React.Fragment>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand navbar" href="/">Super Tortas</a>
+                    <a class="navbar-brand navbar" href="/"><img src={SuperLogo} alt="logo" className="logo" />Super Tortas</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
